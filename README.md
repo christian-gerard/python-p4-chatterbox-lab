@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-- Create an API with Flask for a React frontend application.
+- Create an API wipipenth Flask for a React frontend application.
 
 ## Introduction
 
