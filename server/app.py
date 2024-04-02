@@ -20,7 +20,7 @@ def messages():
     if request.method == 'GET':
 
         messages = []
-        for message in Message.query.all():
+        for message in Message.query.order_by('created_at'):
             message_dict = message.to_dict()
             messages.append(message_dict)
         response = make_response(messages, 200)
